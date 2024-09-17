@@ -14,9 +14,7 @@ void hanoi(int n, char asal, char tujuan, char sementara) {
 }
 
 int main() {
-    int n;
-    cout << "Masukkan jumlah piringan: ";
-    cin >> n;
+    int n = 3;
 
     cout << "Langkah-langkah untuk menyelesaikan Menara Hanoi dengan " << n << " piringan:" << endl;
     hanoi(n, 'A', 'C', 'B'); // A adalah menara asal, C adalah menara tujuan, B adalah menara sementara
